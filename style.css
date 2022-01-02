@@ -1,4 +1,5 @@
 *{
+    overflow: auto;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -6,24 +7,27 @@
 html{
     scroll-behavior: smooth;
 }
-.content{
+
+/* Background of first home page*/
+.home{
     min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bg.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(30, 29, 4, 0.4)),url(images/bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
+    position: page;
 }
+
+/* Head picture of moi */
 .picture{
     display: block;
     border-radius: 50%;
-    width: 11%;
-    height: 11%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
+    width: 200px;
+    height: 200px;
+    margin: 2% auto 3%;
 }
+
+/* Line separating the menu */
 hr {
     display: block;
     margin-top: 10%;
@@ -32,6 +36,8 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
+
+/* Navigation menu */
 nav{
     display: flex;
     padding: 2% 20%;
@@ -50,7 +56,7 @@ nav{
     position: relative;
 }
 .nav-links ul li a{
-    color: #fff;
+    color: #fbf6e1;
     text-decoration: none;
     font-size: 18px;
 }
@@ -66,43 +72,39 @@ nav{
 .nav-links ul li:hover::after{
     width: 100%;
 }
-#top{
+
+/* Content of home */
+.home-content{
     min-width: 40%;
     max-width: 40%;
-    color: #fff;
+    color: #fbf6e1;
     text-align: center;
     margin:0 auto;
 }
-#top h1{
+.home-content h1{
     font-size: 82px;
     margin-bottom: 4%;
 }
-#top p{
+.home-content p{
     font-size: 30px;
-    color: #fff;
-    margin:0 auto;
 }
-.section{
-    scroll-margin-top: 20px;
-    height: 100vh;
-    color: #fff;
-    text-align: center;
-    margin:0 auto;
-}
+
+/* Subsection options */
 .subsection{
-    scroll-margin-top: 50px;
-    height: 100vh;
+    scroll-margin-top: 0px;
     color: #fff;
     text-align: center;
 }
 .subsection h1{
     max-width: 40%;
-    font-size: 60px;
+    font-size: 45px;
+    font-weight: lighter;
     margin:0 auto 2% auto;
 }
 .subsection p{
     max-width: 40%;
-    font-size: 33px;
+    font-size: 32px;
+    font-weight: lighter;
     color: #fff;
     margin:0 auto;
 }
@@ -117,3 +119,26 @@ nav{
     padding: 8px 6%;
     position: relative;
 }
+
+/* Projects background */
+#projects{
+    min-height: 100vh;
+    background-size: cover;
+    background: #1B041E url(images/bg.jpg) no-repeat center;
+}
+#skills{
+    min-height: 100vh;
+    background-size: cover;
+    background: #1B041E url(images/bg.jpg) no-repeat center;
+}
+#about me{
+    min-height: 100vh;
+    background-size: cover;
+    background: #1B041E url(images/bg.jpg) no-repeat center;
+}
+#contact{
+    min-height: 100vh;
+    background-size: cover;
+    background: #1B041E url(images/bg.jpg) no-repeat center;
+}
+/*1b041e*/
