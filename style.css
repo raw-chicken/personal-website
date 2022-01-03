@@ -11,11 +11,10 @@ html{
 /* Background of first home page*/
 .home{
     min-height: 100vh;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(30, 29, 4, 0.4)),url(images/bg.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(33, 5, 37, 0.99)),url(images/bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: page;
 }
 
 /* Head picture of moi */
@@ -91,7 +90,6 @@ nav{
 
 /* Subsection options */
 .subsection{
-    scroll-margin-top: 0px;
     color: #fff;
     text-align: center;
 }
@@ -99,11 +97,11 @@ nav{
     max-width: 40%;
     font-size: 45px;
     font-weight: lighter;
-    margin:0 auto 2% auto;
+    margin:5% auto 3% auto;
 }
 .subsection p{
-    max-width: 40%;
-    font-size: 32px;
+    max-width: 30%;
+    font-size: 26px;
     font-weight: lighter;
     color: #fff;
     margin:0 auto;
@@ -122,23 +120,23 @@ nav{
 
 /* Projects background */
 #projects{
+    min-height: 90vh;
+    background: linear-gradient(rgba(33, 5, 37, 0.99), rgba(27, 4, 30, 0.94)), url(images/projectsbg.jpg) no-repeat center;
+    background-size: cover;
+}
+#projects-list{
     min-height: 100vh;
     background-size: cover;
-    background: #1B041E url(images/bg.jpg) no-repeat center;
+    background: #ffffff no-repeat center;
+}
+#bottom{
+    min-height: 100vh;
+    background-size: cover;
+    background: #1B041E url(images/socialmediabg.jpg) no-repeat center;
 }
 #skills{
-    min-height: 100vh;
-    background-size: cover;
-    background: #1B041E url(images/bg.jpg) no-repeat center;
-}
-#about me{
-    min-height: 100vh;
-    background-size: cover;
-    background: #1B041E url(images/bg.jpg) no-repeat center;
+
 }
 #contact{
-    min-height: 100vh;
-    background-size: cover;
-    background: #1B041E url(images/bg.jpg) no-repeat center;
 }
 /*1b041e*/
